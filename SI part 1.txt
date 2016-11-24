@@ -1,4 +1,4 @@
-def initialize(self):
+def initialize_abcde(self): 
  
 self.invaders = []
 xPos = 512
