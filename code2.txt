@@ -1,5 +1,4 @@
 
-// Main game function
 
 {
     // Initialize the map
