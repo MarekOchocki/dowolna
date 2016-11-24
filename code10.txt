@@ -10,8 +10,6 @@
     @Override
     public void actionPerformed(ActionEvent e) {
 
-        if (inGame) {
-
             checkApple();
             checkCollision();
             move();

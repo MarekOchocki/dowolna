@@ -3,9 +3,7 @@ void update() {
     // Move in direction indicated
     switch (direction) {
     case 0: move(-1, 0);
-        break;
-    case 1: move(0, 1);
-        break;
+        break;        break;
     case 2: move(1, 0);
         break;
     case 3: move(0, -1);

@@ -1,7 +1,7 @@
 // Moves snake head to new location
 void move(int dx, int dy) {
     // determine new head position
-    int newx = headxpos + dx;
+
     int newy = headypos + dy;
 
     // Check if there is food at location

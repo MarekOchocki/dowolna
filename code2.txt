@@ -1,6 +1,6 @@
 
 // Main game function
-void run()
+
 {
     // Initialize the map
     initMap();

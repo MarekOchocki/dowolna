@@ -8,8 +8,7 @@ void printMap()
         }
         // Ends the line for next x value
         std::cout << std::endl;
-    }
-}
+    }}
 
 // Returns graphical character for display from map value
 char getMapValue(int value)
