@@ -1,0 +1,1 @@
+xPos = xPos + self.invaderImg.get_width()
