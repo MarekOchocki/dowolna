@@ -1,0 +1,59 @@
+
+// Main game function
+void run()
+{
+    // Initialize the map
+    initMap();
+    running = true;
+    while (running) {
+        // If a key is pressed
+        if (kbhit()) {
+            // Change to direction determined by key pressed
+            changeDirection(getch());
+        }
+        // Upate the map
+        update();
+
+        // Clear the screen
+        clearScreen();
+
+        // Print the map
+        printMap();
+
+        // wait 0.5 seconds
+        _sleep(500);
+    }
+
+    // Print out game over text
+    std::cout << "\t\t!!!Game over!" << std::endl << "\t\tYour score is: " << food;
+
+    // Stop console from closing instantly
+    std::cin.ignore();
+}
+
+// Changes snake direction from input
+void changeDirection(char key) {
+    /*
+      W
+    A + D
+      S
+
+      1
+    4 + 2
+      3
+    */
+    switch (key) {
+    case 'w':
+        if (direction != 2) direction = 0;
+        break;
+    case 'd':
+        if (direction != 3) direction = 1;
+        break;
+    case 's':
+        if (direction != 4) direction = 2;
+        break;
+    case 'a':
+        if (direction != 5) direction = 3;
+        break;
+    }
+}
