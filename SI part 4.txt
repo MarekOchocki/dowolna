@@ -1,6 +1,0 @@
- 
-xPos = 96
-for i in range(11):
-self.invaders[i].moveVertical(4)
-self.invaders[i].setXPos(xPos)
-xPos = xPos + self.invaderImg.get_width()

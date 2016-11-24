@@ -1,2 +1,0 @@
-self.screen.blit(self.invaderImg, self.invaders[i].getPosition())
-pygame.display.flip()
