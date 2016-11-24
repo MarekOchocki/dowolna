@@ -1,0 +1,10 @@
+def initialize(self):
+ 
+self.invaders = []
+xPos = 512
+for i in range(11):
+invader = Invader.Invader()
+invader.setXPos(xPos)
+invader.setYPos(100)
+self.invaders.append(invader)
+xPos += 50
