@@ -1,5 +1,4 @@
-// Prints the map to console
-void printMap()
+
 {
     for (int x = 0; x < mapwidth; ++x) {
         for (int y = 0; y < mapheight; ++y) {
