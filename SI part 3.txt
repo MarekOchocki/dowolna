@@ -1,2 +1,0 @@
-if self.invaders[0].getXPos() < 96:
-self.alienDirection = +1
