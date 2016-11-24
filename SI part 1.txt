@@ -1,5 +1,5 @@
 def initialize_abcde(self): 
- 
+#lolololol
 self.invaders = []
 xPos = 512
 for i in range(11):
