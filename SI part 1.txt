@@ -1,7 +1,7 @@
 
-def initialize_abcde(self): 
+
 #lolololol
-=======
+
 def initialize_abcdefghi(self): 
  
 >>>>>>> b4a7414a1f6b13b1973fad09e7b87869e6fef476
