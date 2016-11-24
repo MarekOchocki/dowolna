@@ -1,0 +1,43 @@
+// Updates the map
+void update() {
+    // Move in direction indicated
+    switch (direction) {
+    case 0: move(-1, 0);
+        break;
+    case 1: move(0, 1);
+        break;
+    case 2: move(1, 0);
+        break;
+    case 3: move(0, -1);
+        break;
+    }
+
+    // Reduce snake values on map by 1
+    for (int i = 0; i < size; i++) {
+        if (map[i] > 0) map[i]--;
+    }
+}
+
+// Initializes map
+void initMap()
+{
+    // Places the initual head location in middle of map
+    headxpos = mapwidth / 2;
+    headypos = mapheight / 2;
+    map[headxpos + headypos * mapwidth] = 1;
+
+    // Places top and bottom walls 
+    for (int x = 0; x < mapwidth; ++x) {
+        map[x] = -1;
+        map[x + (mapheight - 1) * mapwidth] = -1;
+    }
+
+    // Places left and right walls
+    for (int y = 0; y < mapheight; y++) {
+        map[0 + y * mapwidth] = -1;
+        map[(mapwidth - 1) + y * mapwidth] = -1;
+    }
+
+    // Generates first food
+    generateFood();
+}
