@@ -1,0 +1,4 @@
+def update(self):
+for i in range(11):
+self.invaders[i].moveHorizontal(self.alienSpeed * self.alienDirection)
+ 
