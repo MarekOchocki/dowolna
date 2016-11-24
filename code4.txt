@@ -1,4 +1,4 @@
-// Updates the map
+
 void update() {
     // Move in direction indicated
     switch (direction) {
