@@ -1,2 +1,0 @@
-self.invaders[i].moveVertical(4)
-self.invaders[i].setXPos(xPos)
