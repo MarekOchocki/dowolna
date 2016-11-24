@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 def initialize_abcde(self): 
 #lolololol
 =======
