@@ -1,6 +1,6 @@
 abd
 
-void run();
+void wwoooooooooooooooozrun();
 void printMap();
 void initMap();
 void move(int dx, int dy);

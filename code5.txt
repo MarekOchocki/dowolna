@@ -1,3 +1,6 @@
+zmiana
+numer
+piêæ
 
 {
     for (int x = 0; x < mapwidth; ++x) {
