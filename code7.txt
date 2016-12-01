@@ -1,3 +1,5 @@
+zmian
+siedem ju¿ by³o
 
 
     private int dots;
