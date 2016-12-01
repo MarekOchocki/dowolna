@@ -1,4 +1,8 @@
 
+zmiana numer 6
+
+tym razem w noweym branchu
+
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
