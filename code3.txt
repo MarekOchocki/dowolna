@@ -1,4 +1,4 @@
-
+Wooooow, mogê otwieraæ pliki comend¹ notepad
 void move(int dx, int dy) {
     // determine new head position
 
